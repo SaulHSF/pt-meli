@@ -1,0 +1,292 @@
+{
+  "adoption": [
+    {
+      "userId": "u1",
+      "month": "2025-08",
+      "tools": {
+        "Windsurf": "No Use",
+        "Cursor": "Low",
+        "Copilot": "No Use",
+        "ChatGPT": "Daily",
+        "Gemini": "No Use",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2025-08",
+      "tools": {
+        "Windsurf": "Low",
+        "Cursor": "Frequent",
+        "Copilot": "Low",
+        "ChatGPT": "Frequent",
+        "Gemini": "Low",
+        "Notebook": "No Use"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2025-08",
+      "tools": {
+        "Windsurf": "No Use",
+        "Cursor": "Daily",
+        "Copilot": "Frequent",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u1",
+      "month": "2025-09",
+      "tools": {
+        "Windsurf": "Low",
+        "Cursor": "Frequent",
+        "Copilot": "Low",
+        "ChatGPT": "Daily",
+        "Gemini": "Low",
+        "Notebook": "Frequent"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2025-09",
+      "tools": {
+        "Windsurf": "Low",
+        "Cursor": "Daily",
+        "Copilot": "Frequent",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2025-09",
+      "tools": {
+        "Windsurf": "Frequent",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Frequent"
+      }
+    },
+    {
+      "userId": "u1",
+      "month": "2025-10",
+      "tools": {
+        "Windsurf": "Frequent",
+        "Cursor": "Daily",
+        "Copilot": "Frequent",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2025-10",
+      "tools": {
+        "Windsurf": "Low",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Frequent",
+        "Gemini": "Daily",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2025-10",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u4",
+      "month": "2025-10",
+      "tools": {
+        "Windsurf": "No Use",
+        "Cursor": "Low",
+        "Copilot": "No Use",
+        "ChatGPT": "Low",
+        "Gemini": "No Use",
+        "Notebook": "No Use"
+      }
+    },
+    {
+      "userId": "u1",
+      "month": "2025-11",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2025-11",
+      "tools": {
+        "Windsurf": "Frequent",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Frequent"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2025-11",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u4",
+      "month": "2025-11",
+      "tools": {
+        "Windsurf": "Low",
+        "Cursor": "Frequent",
+        "Copilot": "Low",
+        "ChatGPT": "Frequent",
+        "Gemini": "Low",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u1",
+      "month": "2025-12",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2025-12",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2025-12",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u4",
+      "month": "2025-12",
+      "tools": {
+        "Windsurf": "Frequent",
+        "Cursor": "Daily",
+        "Copilot": "Frequent",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u5",
+      "month": "2025-12",
+      "tools": {
+        "Windsurf": "No Use",
+        "Cursor": "No Use",
+        "Copilot": "Low",
+        "ChatGPT": "Low",
+        "Gemini": "No Use",
+        "Notebook": "No Use"
+      }
+    },
+    {
+      "userId": "u1",
+      "month": "2026-01",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u2",
+      "month": "2026-01",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u3",
+      "month": "2026-01",
+      "tools": {
+        "Windsurf": "Daily",
+        "Cursor": "Daily",
+        "Copilot": "Daily",
+        "ChatGPT": "Daily",
+        "Gemini": "Daily",
+        "Notebook": "Daily"
+      }
+    },
+    {
+      "userId": "u4",
+      "month": "2026-01",
+      "tools": {
+        "Windsurf": "Frequent",
+        "Cursor": "Daily",
+        "Copilot": "Frequent",
+        "ChatGPT": "Daily",
+        "Gemini": "Frequent",
+        "Notebook": "Low"
+      }
+    },
+    {
+      "userId": "u5",
+      "month": "2026-01",
+      "tools": {
+        "Windsurf": "No Use",
+        "Cursor": "No Use",
+        "Copilot": "Low",
+        "ChatGPT": "Low",
+        "Gemini": "No Use",
+        "Notebook": "No Use"
+      }
+    }
+  ]
+}
