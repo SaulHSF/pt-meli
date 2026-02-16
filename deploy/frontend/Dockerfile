@@ -9,7 +9,7 @@ RUN npm ci
 COPY . .
 
 # VITE_API_URL: URL que el navegador usará para llamar a la API (se inyecta en build)
-ARG VITE_API_URL=http://localhost:3001
+ARG VITE_API_URL
 ENV VITE_API_URL=${VITE_API_URL}
 
 RUN npm run build
