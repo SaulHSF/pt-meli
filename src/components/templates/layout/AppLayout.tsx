@@ -62,18 +62,18 @@ export function AppLayout({ children }: Readonly<AppLayoutProps>) {
   }, [theme]);
 
   return (
-    <div className="min-h-screen bg-[var(--color-bg-primary)] text-[var(--color-text-primary)] antialiased">
-      <header className="sticky top-0 z-10 border-b border-[var(--color-border)] bg-[var(--color-bg-card)]/90 px-6 py-4 backdrop-blur supports-[backdrop-filter]:bg-[var(--color-bg-card)]/80">
+    <div className="min-h-screen bg-surface-primary text-content-primary antialiased">
+      <header className="sticky top-0 z-10 border-b border-stroke-default bg-surface-card/90 px-6 py-4 backdrop-blur supports-[backdrop-filter]:bg-surface-card/80">
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex flex-col gap-1">
-            <p className="text-xs font-medium uppercase tracking-[0.08em] text-[var(--color-text-secondary)]">
+            <p className="text-xs font-medium uppercase tracking-[0.08em] text-content-secondary">
               Reporte inteligente de adopción
             </p>
             <h1 className="text-xl font-semibold leading-tight lg:text-2xl">{title}</h1>
-            <p className="text-sm text-[var(--color-text-secondary)]">{subtitle}</p>
+            <p className="text-sm text-content-secondary">{subtitle}</p>
           </div>
 
-          <div className="inline-flex items-center gap-2 self-start text-sm text-[var(--color-text-secondary)]">
+          <div className="inline-flex items-center gap-2 self-start text-sm text-content-secondary">
             <ThemeDropdown value={theme} onChange={setTheme} />
           </div>
         </div>

@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
 @theme {
+  /* Semantic aliases for runtime theme tokens */
+  --color-surface-primary: var(--color-bg-primary);
+  --color-surface-secondary: var(--color-bg-secondary);
+  --color-surface-card: var(--color-bg-card);
+  --color-content-primary: var(--color-text-primary);
+  --color-content-secondary: var(--color-text-secondary);
+  --color-stroke-default: var(--color-border);
+  --color-brand-accent: var(--color-accent);
+
   --color-adoption-no-use: var(--color-no-use);
   --color-adoption-low: var(--color-low);
   --color-adoption-frequent: var(--color-frequent);

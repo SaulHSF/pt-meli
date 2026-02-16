@@ -34,7 +34,7 @@ export function ThemeDropdown({ value, onChange }: Readonly<ThemeDropdownProps>)
   return (
     <details ref={detailsRef} className="relative">
       <summary
-        className="list-none cursor-pointer rounded-full border border-[var(--color-border)] bg-[var(--color-bg-card)] text-sm text-[var(--color-text-primary)]"
+        className="list-none cursor-pointer rounded-full border border-stroke-default bg-surface-card text-sm text-content-primary"
         aria-label={`Tema ${selectedOption.label}`}
       >
         <span className="inline-flex items-center gap-1.5 m-2">
@@ -42,7 +42,7 @@ export function ThemeDropdown({ value, onChange }: Readonly<ThemeDropdownProps>)
         </span>
       </summary>
 
-      <div className="absolute right-0 z-20 mt-2 rounded-md border border-[var(--color-border)] bg-[var(--color-bg-card)] p-1 shadow-lg">
+      <div className="absolute right-0 z-20 mt-2 rounded-md border border-stroke-default bg-surface-card p-1 shadow-lg">
         {THEME_OPTIONS.map((option) => {
           const isSelected = option.value === value;
           return (
@@ -53,8 +53,8 @@ export function ThemeDropdown({ value, onChange }: Readonly<ThemeDropdownProps>)
               aria-label={`Tema ${option.label}`}
               className={`flex items-center justify-center rounded px-2 py-1.5 text-sm transition-colors ${
                 isSelected
-                  ? 'bg-[var(--color-bg-secondary)] text-[var(--color-text-primary)]'
-                  : 'text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-secondary)]'
+                  ? 'bg-surface-secondary text-content-primary'
+                  : 'text-content-secondary hover:bg-surface-secondary'
               }`}
             >
               <Icon name={option.icon} size="sm" />

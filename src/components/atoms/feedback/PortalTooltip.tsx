@@ -244,7 +244,7 @@ export function PortalTooltip({
             style={style}
             onMouseEnter={canOpenByHover ? clearTimers : undefined}
             onMouseLeave={canOpenByHover ? closeTooltip : undefined}
-            className="rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-card)] px-3 py-2 text-xs text-[var(--color-text-primary)] shadow-lg"
+            className="rounded-lg border border-stroke-default bg-surface-card px-3 py-2 text-xs text-content-primary shadow-lg"
           >
             {content}
           </div>,

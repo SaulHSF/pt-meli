@@ -8,3 +8,4 @@ dist/
 deploy/.env
 .agents/
 .cursor/
+coverage/
