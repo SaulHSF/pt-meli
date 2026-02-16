@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+*.local# Deploy: .env contiene secretos en producción
+deploy/.env
+.agents/
+.cursor/

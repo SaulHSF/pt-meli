@@ -1,0 +1,10 @@
+{
+  "name": "adoption-api",
+  "version": "1.0.0",
+  "description": "API mock with CORS protection",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.4"
+  }
+}

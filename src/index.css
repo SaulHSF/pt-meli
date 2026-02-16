@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL,GRAD,opsz,wght@0..1,-25..200,20..48,100..700');
+@import "tailwindcss";
+
+@theme {
+  --color-adoption-no-use: var(--color-no-use);
+  --color-adoption-low: var(--color-low);
+  --color-adoption-frequent: var(--color-frequent);
+  --color-adoption-daily: var(--color-daily);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: radial-gradient(circle at top right, #f2f8ff 0%, transparent 35%),
+      radial-gradient(circle at top left, #f7f9fc 0%, transparent 40%);
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    text-rendering: optimizeLegibility;
+  }
+
+  *:focus-visible {
+    outline: var(--focus-ring-width) solid var(--color-focus-ring);
+    outline-offset: 2px;
+  }
+}

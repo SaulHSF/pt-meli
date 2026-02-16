@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: adoption-api
+    ports:
+      - "${API_PORT:-3011}:3001"
+    environment:
+      - FRONTEND_URL=${FRONTEND_URL}
+      - API_PORT=3001
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: deploy/frontend/Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:3011}
+    container_name: adoption-frontend
+    ports:
+      - "${FRONTEND_PORT:-3010}:80"
+    depends_on:
+      - api
+    restart: unless-stopped
