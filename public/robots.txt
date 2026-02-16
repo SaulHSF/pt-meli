@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pt-meli.shsfdev.com/sitemap.xml
